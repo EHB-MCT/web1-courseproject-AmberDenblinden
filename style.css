@@ -145,7 +145,7 @@ header nav ul li a {
 	justify-content: space-between;
 	max-width: 1240px;
 	background-color: #fff;
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bron: ChatGPT (OpenAI), gegenereerd op [17/12/2024]*/
 }
 
 .aboutMe,
