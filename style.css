@@ -246,6 +246,7 @@ header nav ul li a {
 	color: #f5f5f5;
 	margin-top: 100px;
 	padding: 50px;
+	box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .endAboutMe p {
@@ -403,6 +404,7 @@ p {
 	color: #f5f5f5;
 	padding: 50px;
 	text-decoration: none;
+	box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .endResume p {
@@ -483,6 +485,7 @@ p {
 	background-color: #d72638;
 	color: #f5f5f5;
 	flex-direction: column;
+	padding-bottom: 40px;
 }
 
 .spideySkills h1 {
@@ -512,15 +515,15 @@ p {
 .web,
 .problem-solving,
 .technologically {
-	margin: 20px 240px;
+	margin: 30px 240px;
 	display: flex;
 	align-items: center;
 	text-align: left;
 	justify-content: space-between;
-	width: 80%;
+	width: 100%;
 	max-width: 1240px;
 	background-color: #1e3a5f;
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bron: ChatGPT (OpenAI), gegenereerd op [17/12/2024]*/
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Bron: ChatGPT (OpenAI), gegenereerd op [17/12/2024]*/
 }
 
 .superhuman h2,
@@ -540,4 +543,228 @@ p {
 	flex: 1;
 	margin-left: 80px;
 	flex-direction: column;
+}
+
+.spideyQuote {
+	background-color: #000;
+	padding: 20px;
+}
+.spideyQuote h1 {
+	margin: 20px 240px;
+	color: #f5f5f5;
+	font-family: "Sigmar One", serif;
+	text-align: center;
+}
+
+.villains {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #1e3a5f;
+	color: #f5f5f5;
+	flex-direction: column;
+	padding-bottom: 40px;
+}
+
+.villains h1 {
+	margin: 50px 50px 10px 0px;
+	color: #d72638;
+	font-family: "Sigmar One", serif;
+	font-size: 50pt;
+}
+
+.section .villains {
+	margin: 20px 240px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.everyVillains,
+.mysterio {
+	margin: 30px 240px;
+	display: flex;
+	align-items: center;
+	text-align: left;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 1240px;
+	background-color: #d72638;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Bron: ChatGPT (OpenAI), gegenereerd op [17/12/2024]*/
+}
+
+.mysterio {
+	flex-direction: row-reverse;
+}
+
+.everyVillains img,
+.mysterio img {
+	width: 20%;
+	height: auto;
+	padding: 20px;
+}
+
+.vulture img,
+.thanos img {
+	width: 96%;
+	height: auto;
+	padding: 20px;
+}
+.vulture,
+.thanos {
+	margin: 30px 240px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: left;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 1240px;
+	background-color: #d72638;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Bron: ChatGPT (OpenAI), gegenereerd op [17/12/2024]*/
+}
+
+.everyVillains h2,
+.vulture h2,
+.mysterio h2,
+.thanos h2 {
+	color: #f5f5f5;
+	font-family: "Sigmar One", serif;
+	margin: 0;
+}
+
+.everyVillainsText,
+.vultureText,
+.mysterioText,
+.thanosText {
+	padding: 30px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.multiversal {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #1e3a5f;
+	color: #f5f5f5;
+	flex-direction: column;
+	padding-bottom: 40px;
+}
+
+.multiversal .spider-Men3 h1 {
+	margin: 20px 240px;
+	color: #d72638;
+	font-family: "Sigmar One", serif;
+	font-size: 50pt;
+	text-align: center;
+}
+
+.multiversal .spider-Men3 h3 {
+	text-align: center;
+	color: #f5f5f5;
+	margin: 20px 240px;
+	margin-bottom: 0px;
+}
+
+.multiversal .spider-Men3 img {
+	margin: 20px 240px;
+	width: 72%;
+	height: auto;
+}
+
+.section .multiversal {
+	margin: 20px 240px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.multiversalVillan {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 10px;
+	width: 100%;
+	background: rgb(30, 58, 95);
+	background: linear-gradient(
+		180deg,
+		rgba(30, 58, 95, 1) 25%,
+		rgba(215, 38, 56, 1) 85%
+	);
+	gap: 30px;
+}
+
+.greenGoblin,
+.doctorOctopus,
+.electro {
+	margin: 20px 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	width: 20%;
+	text-align: center;
+}
+
+.sandman,
+.lizard {
+	margin: 20px 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 20%;
+	text-align: center;
+}
+
+.greenGoblin img,
+.doctorOctopus img,
+.electro img,
+.sandman img,
+.lizard img {
+	width: 100%;
+	height: auto;
+}
+
+.greenGoblinText p,
+.doctorOctopusText p,
+.electroText p,
+.sandmanText p,
+.lizardText p {
+	color: #f5f5f5;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+}
+
+.greenGoblinText h2,
+.doctorOctopusText h2,
+.electroText h2,
+.sandmanText h2,
+.lizardText h2 {
+	color: #f5f5f5;
+	font-family: "Sigmar One", serif;
+}
+
+.endSpidey {
+	display: flex;
+	flex-direction: column;
+	background-color: #d72638;
+	font-family: "Roboto", sans-serif;
+	color: #f5f5f5;
+	padding: 50px;
+	text-decoration: none;
+	box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.endSpidey p {
+	margin: 20px 190px;
+}
+
+.endSpidey .insta img {
+	height: 35px;
+	width: auto;
+	margin-left: 30px;
+	justify-content: center;
+	text-decoration: none;
 }
