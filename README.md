@@ -10,3 +10,5 @@ Live link: [website.be](website.be) (optional)
 
 - Sommige CSS- en HTML-aanpassingen zijn gegenereerd door ChatGPT (OpenAI), geraadpleegd op [17/12/2024].
 - Zoals de schaduw onder de boxen van de About Me page van Peter Parker.
+
+- [How To - Mobile Navigation Bar](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) - W3Schools: Deze handleiding werd gebruikt als referentie om een mobiele navigatiebalk te implementeren.

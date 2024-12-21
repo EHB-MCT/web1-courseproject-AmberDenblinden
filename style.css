@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers&family=Merriweather:wght@400;700&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
 
-* {
-	outline: 1px solid red; /* Hiermee zie je alle marges en padding */
-}
-
 body {
 	margin: 0;
 	background-color: #f5f5f5;
@@ -28,10 +24,7 @@ header {
 	background-color: #1e3a5f;
 }
 
-.spidey .outer-wrapper {
-	background-color: #d72638;
-}
-
+.spidey .outer-wrapper,
 .spidey header {
 	background-color: #d72638;
 }
@@ -53,6 +46,7 @@ header {
 
 img {
 	width: 100%;
+	height: auto;
 }
 
 header h1 {
@@ -767,4 +761,185 @@ p {
 	margin-left: 30px;
 	justify-content: center;
 	text-decoration: none;
+}
+
+.mobile-container {
+	display: none;
+}
+
+#myLinks {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.wrapper {
+		width: 100%;
+		padding: 0 20px;
+	}
+
+	header {
+		display: none;
+	}
+
+	.topnav {
+		display: block;
+	}
+
+	.topnav .icon {
+		display: block;
+	}
+}
+
+@media (max-width: 412px) {
+	.desktop-menu {
+		display: none;
+	}
+
+	.mobile-container {
+		display: block;
+	}
+
+	/* Hamburger menu */
+	.mobile-container {
+		max-width: 412px;
+		color: #1e3a5f;
+		border-radius: 10px;
+	}
+
+	.topnav {
+		overflow: hidden;
+		background-color: #d72638;
+		position: relative;
+	}
+
+	.topnav #myLinks {
+		display: block;
+	}
+
+	.topnav #myLinks img {
+		height: 50px;
+		width: auto;
+	}
+
+	.topnav a {
+		color: white;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		display: block;
+		font-family: "Merriweather", serif;
+	}
+
+	.topnav a.icon {
+		background: black;
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.topnav a:hover {
+		background-color: #1e3a5f;
+		color: #d72638;
+	}
+
+	.active {
+		background-color: #1e3a5f;
+		color: white;
+	}
+
+	/* About me */
+	.peterIntro {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: auto;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.wrapperTwo {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 0px;
+	}
+
+	.introText h1 h3 {
+		align-self: center;
+		margin: 0px 30px;
+		text-align: center;
+	}
+
+	.peterIntro img {
+		width: 60%;
+		height: auto;
+		margin-bottom: 20px;
+	}
+
+	.aboutMe,
+	.aboutMe2,
+	.aboutMe3,
+	.aboutMe4,
+	.aboutMe5 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		margin: 20px 30px;
+		padding: 5px;
+	}
+
+	.aboutMe img,
+	.aboutMe2 img,
+	.aboutMe3 img,
+	.aboutMe4 img,
+	.aboutMe5 img {
+		width: 90%;
+		height: auto;
+		max-width: 200px;
+		margin-bottom: 15px;
+	}
+
+	.aboutMeText p,
+	.aboutMeText2 p,
+	.aboutMeText3 p,
+	.aboutMeText4 p,
+	.aboutMeText5 p {
+		text-align: center;
+	}
+
+	.conclusion {
+		margin: 0px 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 10px;
+	}
+
+	.links ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0;
+		margin: 0;
+	}
+
+	footer .endAboutMe p,
+	footer .endResume p,
+	footer .endSpidey p {
+		margin: 10px 0;
+	}
+
+	footer .endAboutMe a.insta img,
+	footer .endResume a.insta img,
+	footer .endSpidey a.insta img {
+		width: 25px;
+		height: auto;
+		margin: 0 5px;
+	}
 }
