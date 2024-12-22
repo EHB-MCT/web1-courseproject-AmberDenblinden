@@ -381,33 +381,6 @@ header nav ul li a {
 	margin-left: 0px;
 	text-align: right;
 }
-
-.interests {
-	margin: 30px 420px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-image: url("images/paper-tape.png");
-	background-size: cover;
-	background-position: center;
-	height: 10px;
-	width: auto;
-	padding: 300px;
-}
-
-.interestsText h2 {
-	font-family: "Merriweather", serif;
-	color: #1e3a5f;
-	text-align: left;
-	margin: 0px 240px;
-}
-
-.interestsText h3,
-p {
-	font-family: "Roboto", sans-serif;
-	text-align: left;
-}
-
 /*spider-man section */
 
 .spiderIntro {
@@ -974,20 +947,6 @@ p {
 		text-align: center;
 		width: 100%;
 		max-width: 402px;
-	}
-
-	.interests {
-		width: 45%;
-		margin-top: 20px;
-		margin: 10px 30px;
-		padding: 130px;
-	}
-
-	.interestsText h2,
-	h3,
-	p {
-		margin: 10px 5px;
-		font-size: smaller;
 	}
 
 	/* Spidey */
