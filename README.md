@@ -4,7 +4,7 @@ This project is a personal portfolio website for Peter Parker, showcasing his un
 
 Dit project is een persoonlijke portfolio-website voor Peter Parker, waarin zijn unieke persoonlijkheid wordt getoond als middelbare scholier, wetenschapsliefhebber en superheld. De website belicht Peters passie voor technologie, fotografie, muziek en zijn heroïsche avonturen als Spider-Man, met een verborgen link die subtiel naar zijn geheime identiteit verwijst.
 
-Live link: [https://ehb-mct.github.io/web1-courseproject-AmberDenblinden/index.html](https://ehb-mct.github.io/web1-courseproject-AmberDenblinden/index.html)read
+Live link: [https://ehb-mct.github.io/web1-courseproject-AmberDenblinden/index.html](https://ehb-mct.github.io/web1-courseproject-AmberDenblinden/index.html)
 
 ### Bronvermelding
 
