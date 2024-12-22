@@ -1,8 +1,8 @@
-# Course project ✨
+# Course project Peter Parker ✨
 
-A short description of your project. Aim for 2-3 lines.
-Next, read this example and adapt it to your project.
-If you want to add more sections, please do so after the existing ones (avoid burying your sources under a lot of text!).
+This project is a personal portfolio website for Peter Parker, showcasing his unique persona as a high school student, science enthusiast, and superhero. The website highlights Peter's love for technology, photography, music, and his heroic adventures as Spider-Man.
+
+Dit project is een persoonlijke portfolio-website voor Peter Parker, waarin zijn unieke persoonlijkheid wordt getoond als middelbare scholier, wetenschapsliefhebber en superheld. De website belicht Peters passie voor technologie, fotografie, muziek en zijn heroïsche avonturen als Spider-Man.
 
 Live link: [website.be](website.be) (optional)
 
@@ -16,3 +16,8 @@ Live link: [website.be](website.be) (optional)
 - [How To - Mobile Navigation Bar](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) - W3Schools: Deze handleiding werd gebruikt als referentie om een mobiele navigatiebalk te implementeren.
 
 - De afbeeldingen in dit project zijn grotendeels afkomstig van openbare bronnen zoals [Pinterest](https://www.pinterest.com/) en [Google Afbeeldingen](https://images.google.com/).
+
+- Lettertypen: Dit project maakt gebruik van lettertypen geïntegreerd vanuit Google Fonts, waaronder:
+  - Roboto
+  - Merriweather
+  - Sigmar One

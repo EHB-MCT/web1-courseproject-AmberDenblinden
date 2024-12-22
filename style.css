@@ -232,7 +232,10 @@ header nav ul li a {
 	color: #f5f5f5;
 }
 
-.endAboutMe {
+/* Footer */
+
+.endAboutMe,
+.endResume {
 	display: flex;
 	flex-direction: column;
 	background-color: #1e3a5f;
@@ -243,15 +246,29 @@ header nav ul li a {
 	box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.endAboutMe p {
+.endAboutMe p,
+.endResume p,
+.endSpidey p {
 	margin: 20px 190px;
 }
 
-.endAboutMe .insta img {
+.insta img {
 	height: 35px;
 	width: auto;
 	margin-left: 30px;
 	justify-content: center;
+}
+
+.topButton {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 0px 240px;
+}
+
+.topButton img {
+	height: 35px;
+	width: auto;
 }
 
 /* resume */
@@ -388,29 +405,6 @@ header nav ul li a {
 p {
 	font-family: "Roboto", sans-serif;
 	text-align: left;
-}
-
-.endResume {
-	display: flex;
-	flex-direction: column;
-	background-color: #1e3a5f;
-	font-family: "Roboto", sans-serif;
-	color: #f5f5f5;
-	padding: 50px;
-	text-decoration: none;
-	box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
-}
-
-.endResume p {
-	margin: 20px 190px;
-}
-
-.endResume .insta img {
-	height: 35px;
-	width: auto;
-	margin-left: 30px;
-	justify-content: center;
-	text-decoration: none;
 }
 
 /*spider-man section */
@@ -753,18 +747,6 @@ p {
 	box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.endSpidey p {
-	margin: 20px 190px;
-}
-
-.endSpidey .insta img {
-	height: 35px;
-	width: auto;
-	margin-left: 30px;
-	justify-content: center;
-	text-decoration: none;
-}
-
 .mobile-container {
 	display: none;
 }
@@ -916,7 +898,8 @@ p {
 	h2 {
 		width: 100%;
 		max-width: 402px;
-		text-align: center;
+		padding: 0;
+		margin: 0 !important;
 	}
 
 	.conclusion {
@@ -932,6 +915,7 @@ p {
 		align-items: center;
 		padding: 0;
 		margin: 0 30px;
+		margin-bottom: 80px;
 	}
 
 	/* resume */
@@ -976,6 +960,17 @@ p {
 		display: flex;
 		flex-direction: column;
 		gap: 10px;
+		width: 100%;
+		max-width: 402px;
+	}
+
+	.education h2,
+	.experience h2,
+	.skills h2,
+	.awards h2 {
+		display: flex;
+		align-items: center;
+		text-align: center;
 		width: 100%;
 		max-width: 402px;
 	}
@@ -1207,6 +1202,12 @@ p {
 	}
 
 	/* Footer */
+	footer .endAboutMe,
+	footer .endResume,
+	footer .endSpidey {
+		margin: 0px;
+	}
+
 	footer .endAboutMe p,
 	footer .endResume p,
 	footer .endSpidey p {
@@ -1219,5 +1220,12 @@ p {
 		width: 20px;
 		height: auto;
 		margin: 0 2px;
+	}
+
+	.topButton {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0px 30px;
 	}
 }
