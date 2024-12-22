@@ -243,6 +243,7 @@ header nav ul li a {
 	color: #f5f5f5;
 	margin-top: 100px;
 	padding: 50px;
+	margin-top: 0;
 	box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -1108,8 +1109,7 @@ p {
 		text-align: center;
 	}
 
-	.everyVillains,
-	.vulture,
+	.everyVillains .vulture,
 	.mysterio,
 	.thanos {
 		display: flex;
