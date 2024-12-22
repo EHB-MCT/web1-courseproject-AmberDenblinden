@@ -225,11 +225,14 @@ header nav ul li a {
 	padding: 30px 60px;
 	font-family: "Roboto", sans-serif;
 	font-weight: bold;
+	transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .conclusion .links .button:hover {
 	background-color: #d72638;
 	color: #f5f5f5;
+	transform: scale(1.1);
+	transition: transform 0.3s ease;
 }
 
 /* Footer */
@@ -258,6 +261,11 @@ header nav ul li a {
 	width: auto;
 	margin-left: 30px;
 	justify-content: center;
+	transition: transform 0.3s ease;
+}
+
+.insta img:hover {
+	transform: scale(1.2);
 }
 
 .topButton {
@@ -270,6 +278,11 @@ header nav ul li a {
 .topButton img {
 	height: 35px;
 	width: auto;
+	transition: transform 0.3s ease;
+}
+
+.topButton img:hover {
+	transform: scale(1.2);
 }
 
 /* resume */
