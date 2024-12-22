@@ -795,15 +795,11 @@ p {
 		display: none;
 	}
 
-	.mobile-container {
-		display: block;
-	}
-
 	/* Hamburger menu */
 	.mobile-container {
-		max-width: 412px;
+		display: block;
+		max-width: 100%;
 		color: #1e3a5f;
-		border-radius: 10px;
 	}
 
 	.topnav {
@@ -849,35 +845,27 @@ p {
 	}
 
 	/* About me */
-	.peterIntro {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		height: auto;
-		background-size: cover;
-		background-position: center;
-	}
 
+	.peterIntro,
 	.wrapperTwo {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		text-align: center;
-		padding: 0px;
+		width: 100%;
+		height: auto;
+		padding: 0;
 	}
 
 	.introText h1 h3 {
 		align-self: center;
-		margin: 0px 30px;
 		text-align: center;
+		margin: 0px 30px;
 	}
 
 	.peterIntro img {
 		width: 60%;
 		height: auto;
-		margin-bottom: 20px;
+		margin: 20px;
 	}
 
 	.aboutMe,
@@ -929,17 +917,260 @@ p {
 		margin: 0;
 	}
 
+	/* resume */
+	.wrapperTwoResume {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.resumeIntro {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		margin: 10px 30px;
+	}
+
+	.resumeIntro img {
+		width: 100%;
+		max-width: 250px;
+		height: auto;
+		align-items: center;
+	}
+
+	.quote h1 {
+		margin: 0px 10px;
+		align-items: center;
+		text-align: center;
+		font-size: 25px;
+	}
+
+	.resume {
+		margin: 0px 30px;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		width: 100%;
+	}
+
+	.interests {
+		width: 45%;
+		margin-top: 20px;
+		margin: 10px 30px;
+		padding: 130px;
+	}
+
+	.interestsText h2,
+	h3,
+	p {
+		margin: 10px 5px;
+		font-size: smaller;
+	}
+
+	/* Spidey */
+	.wrapperTwo {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.spiderIntro {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0px 30px;
+	}
+
+	.spiderIntroText h1 {
+		margin: 10px 0px;
+		font-size: 20pt;
+		align-items: center;
+	}
+
+	.spiderIntro img {
+		width: 60%;
+		height: auto;
+	}
+
+	.aboutSpidey {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.aboutSpideyTekst {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		padding: 10px;
+	}
+
+	.aboutSpideyTekst2 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 10px;
+		width: 100%;
+		max-width: 400px;
+	}
+
+	.aboutSpideyTekst2 p {
+		margin: 10px 30px;
+		width: 100%;
+	}
+
+	.spideySkills {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.spideySkills h1 {
+		margin-bottom: 15px;
+	}
+
+	.spideySkills img {
+		width: 90%;
+		margin: 10px 30px;
+	}
+
+	.superhuman,
+	.web,
+	.problem-solving,
+	.technologically {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.superhumanText p,
+	h2,
+	.webText p,
+	h2,
+	.problemText p,
+	h2,
+	.technologicallyText p,
+	h2 {
+		text-align: center;
+		align-items: center;
+		padding-right: 70px;
+	}
+
+	.spideyQuote h1 {
+		margin: 10px 30px;
+		align-items: center;
+		text-align: center;
+		font-size: 25px;
+	}
+
+	.villains h1 {
+		margin: 10px 30px;
+		align-items: center;
+		text-align: center;
+	}
+
+	.everyVillains,
+	.vulture,
+	.mysterio,
+	.thanos {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 0;
+	}
+
+	.everyVillainsText p,
+	h2,
+	.vultureText p,
+	h2,
+	.mysterioText p,
+	h2,
+	.thanosText p,
+	h2 {
+		margin: 0;
+		align-items: center;
+		text-align: center;
+	}
+
+	.villains img {
+		width: 80%;
+		margin: 10px 30px;
+	}
+
+	.multiversal {
+		text-align: center;
+	}
+
+	.spider-Men3Text h1 {
+		font-size: 10pt;
+	}
+
+	.spider-Men3,
+	.greenGoblin,
+	.doctorOctopus,
+	.electro,
+	.sandman,
+	.lizard {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+
+	.spider-Men3Text p,
+	h2,
+	.greenGoblinText p,
+	h2,
+	.doctorOctopusText p,
+	h2,
+	.electroText p,
+	h2,
+	.sandmanText p,
+	h2,
+	.lizardText p,
+	h2 {
+		text-align: center;
+		align-items: center;
+	}
+
+	.spider-Men3 img {
+		width: 100%;
+		max-width: 400px;
+		margin: 10px 30px;
+	}
+
+	.spider-Men3 img,
+	.greenGoblin img,
+	.doctorOctopus img,
+	.electro img,
+	.sandman img,
+	.lizard img {
+		max-width: 400px;
+		width: 140pt;
+		margin: 0px 30px;
+	}
+
+	/* Footer */
 	footer .endAboutMe p,
 	footer .endResume p,
 	footer .endSpidey p {
-		margin: 10px 0;
+		margin: 0px 30px;
 	}
 
 	footer .endAboutMe a.insta img,
 	footer .endResume a.insta img,
 	footer .endSpidey a.insta img {
-		width: 25px;
+		width: 20px;
 		height: auto;
-		margin: 0 5px;
+		margin: 0 2px;
 	}
 }

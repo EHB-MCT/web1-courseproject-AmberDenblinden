@@ -3,10 +3,42 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
 		<title>Peter Parker</title>
 		<link rel="Stylesheet" href="style.css" />
 	</head>
 	<body class="spidey">
+		<!-- Hamburger menu -->
+		<!-- Simulate a smartphone / tablet -->
+		<div class="mobile-container">
+			<!-- Top Navigation Menu -->
+			<div class="topnav">
+				<a href="spidey.html" class="active">Spider-Man</a>
+				<div id="myLinks">
+					<a href="index.html">About me</a>
+					<a href="resume.html">Resume</a>
+				</div>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+			<!-- End smartphone / tablet look -->
+		</div>
+
+		<!-- Hamburger menu -->
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myLinks");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
+		</script>
 		<div class="outer-wrapper">
 			<div class="wrapper">
 				<div id="grid">
