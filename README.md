@@ -1,8 +1,8 @@
 # Course project Peter Parker ✨
 
-This project is a personal portfolio website for Peter Parker, showcasing his unique persona as a high school student, science enthusiast, and superhero. The website highlights Peter's love for technology, photography, music, and his heroic adventures as Spider-Man.
+This project is a personal portfolio website for Peter Parker, showcasing his unique persona as a high school student, science enthusiast, and superhero. The website highlights Peter's love for technology, photography, music, and his heroic adventures as Spider-Man, with a hidden link subtly referencing his secret identity.
 
-Dit project is een persoonlijke portfolio-website voor Peter Parker, waarin zijn unieke persoonlijkheid wordt getoond als middelbare scholier, wetenschapsliefhebber en superheld. De website belicht Peters passie voor technologie, fotografie, muziek en zijn heroïsche avonturen als Spider-Man.
+Dit project is een persoonlijke portfolio-website voor Peter Parker, waarin zijn unieke persoonlijkheid wordt getoond als middelbare scholier, wetenschapsliefhebber en superheld. De website belicht Peters passie voor technologie, fotografie, muziek en zijn heroïsche avonturen als Spider-Man, met een verborgen link die subtiel naar zijn geheime identiteit verwijst.
 
 Live link: [website.be](website.be) (optional)
 
