@@ -624,17 +624,19 @@ p {
 .thanos h2 {
 	color: #f5f5f5;
 	font-family: "Sigmar One", serif;
-	margin: 0;
+	margin: 30px 0;
+	text-align: center;
 }
 
-.everyVillainsText,
-.vultureText,
-.mysterioText,
-.thanosText {
-	padding: 30px;
+.everyVillainsText p,
+.vultureText p,
+.mysterioText p,
+.thanosText p {
+	padding: 0px;
 	align-items: center;
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 }
 
 .multiversal {
@@ -848,15 +850,23 @@ p {
 
 	.peterIntro,
 	.wrapperTwo {
+		width: 100%;
+		max-width: 402px;
+		height: auto;
+	}
+
+	.peterIntro,
+	.introText {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: 100%;
-		height: auto;
-		padding: 0;
+		align-self: center;
+		margin: 0 30px !important;
+		padding: 10px;
 	}
 
-	.introText h1 h3 {
+	.introText h1,
+	h3 {
 		align-self: center;
 		text-align: center;
 		margin: 0px 30px;
@@ -878,7 +888,9 @@ p {
 		align-items: center;
 		text-align: center;
 		margin: 20px 30px;
-		padding: 5px;
+		padding: 10px;
+		width: 80%;
+		max-width: 402px;
 	}
 
 	.aboutMe img,
@@ -893,15 +905,22 @@ p {
 	}
 
 	.aboutMeText p,
+	h2,
 	.aboutMeText2 p,
+	h2,
 	.aboutMeText3 p,
+	h2,
 	.aboutMeText4 p,
-	.aboutMeText5 p {
+	h2,
+	.aboutMeText5 p,
+	h2 {
+		width: 100%;
+		max-width: 402px;
 		text-align: center;
 	}
 
 	.conclusion {
-		margin: 0px 30px;
+		margin: 0 30px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -910,11 +929,9 @@ p {
 	}
 
 	.links ul {
-		display: flex;
-		flex-direction: column;
 		align-items: center;
 		padding: 0;
-		margin: 0;
+		margin: 0 30px;
 	}
 
 	/* resume */
@@ -922,8 +939,8 @@ p {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding: 10px;
-		text-align: center;
+		width: 100%;
+		max-width: 402px;
 	}
 
 	.resumeIntro {
@@ -941,11 +958,17 @@ p {
 		align-items: center;
 	}
 
+	.quote {
+		display: flex;
+		margin: 0 10px;
+	}
+
 	.quote h1 {
-		margin: 0px 10px;
+		display: flex;
+		margin: 0;
 		align-items: center;
 		text-align: center;
-		font-size: 25px;
+		font-size: 20pt;
 	}
 
 	.resume {
@@ -954,6 +977,7 @@ p {
 		flex-direction: column;
 		gap: 10px;
 		width: 100%;
+		max-width: 402px;
 	}
 
 	.interests {
@@ -983,15 +1007,26 @@ p {
 		flex-direction: column;
 		align-items: center;
 		margin: 0px 30px;
+		max-width: 402px;
+	}
+
+	.spiderIntroText {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 10px 30px !important;
 	}
 
 	.spiderIntroText h1 {
-		margin: 10px 0px;
+		margin: 0;
 		font-size: 20pt;
 		align-items: center;
 	}
 
 	.spiderIntro img {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		max-width: 402px;
 		width: 60%;
 		height: auto;
 	}
@@ -1003,37 +1038,41 @@ p {
 		text-align: center;
 	}
 
+	.aboutSpideyTekst,
 	.aboutSpideyTekst {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		width: 100%;
-		padding: 10px;
+		max-width: 412px;
+		padding: 0px;
 	}
 
-	.aboutSpideyTekst2 {
+	.aboutSpideyTekst h1,
+	p,
+	.aboutSpideyTekst2 h1,
+	p {
+		margin: 10px 30px !important;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		text-align: center;
-		padding: 10px;
-		width: 100%;
-		max-width: 400px;
-	}
+		justify-content: center;
+		text-align: center !important;
 
-	.aboutSpideyTekst2 p {
-		margin: 10px 30px;
-		width: 100%;
+		br {
+			display: none;
+		}
 	}
 
 	.spideySkills {
 		text-align: center;
-		margin-bottom: 20px;
 	}
 
 	.spideySkills h1 {
+		margin: 20px 30px;
 		margin-bottom: 15px;
+		text-align: center;
 	}
 
 	.spideySkills img {
@@ -1052,21 +1091,17 @@ p {
 		margin-bottom: 20px;
 	}
 
-	.superhumanText p,
-	h2,
-	.webText p,
-	h2,
-	.problemText p,
-	h2,
-	.technologicallyText p,
-	h2 {
+	.superhumanText,
+	.webText,
+	.problemText,
+	.technologicallyText {
+		margin: 10px 30px;
 		text-align: center;
 		align-items: center;
-		padding-right: 70px;
 	}
 
 	.spideyQuote h1 {
-		margin: 10px 30px;
+		margin: 10px 5px;
 		align-items: center;
 		text-align: center;
 		font-size: 25px;
@@ -1088,19 +1123,6 @@ p {
 		margin-bottom: 0;
 	}
 
-	.everyVillainsText p,
-	h2,
-	.vultureText p,
-	h2,
-	.mysterioText p,
-	h2,
-	.thanosText p,
-	h2 {
-		margin: 0;
-		align-items: center;
-		text-align: center;
-	}
-
 	.villains img {
 		width: 80%;
 		margin: 10px 30px;
@@ -1108,10 +1130,31 @@ p {
 
 	.multiversal {
 		text-align: center;
+		width: 100%;
+		max-width: 412px;
+		padding: 0;
+	}
+
+	.spider-Men3Text {
+		margin: 10px 30px;
+		width: 100%;
+		max-width: 412px;
 	}
 
 	.spider-Men3Text h1 {
-		font-size: 10pt;
+		margin: 10px 30px !important;
+		font-size: 20pt !important;
+	}
+
+	.spider-Men3Text h3 {
+		margin: 5px 30px !important;
+		padding: 10px;
+	}
+
+	.multiversalVillan {
+		padding: 0;
+		width: 100%;
+		max-width: 412px;
 	}
 
 	.spider-Men3,
@@ -1121,7 +1164,7 @@ p {
 	.sandman,
 	.lizard {
 		display: flex;
-		flex-direction: column;
+		flex-direction: column !important;
 		align-items: center;
 		margin-bottom: 10px;
 	}
@@ -1140,6 +1183,9 @@ p {
 	h2 {
 		text-align: center;
 		align-items: center;
+		width: 250px;
+		margin: 10px 0 !important;
+		padding: 0;
 	}
 
 	.spider-Men3 img {
@@ -1154,9 +1200,10 @@ p {
 	.electro img,
 	.sandman img,
 	.lizard img {
-		max-width: 400px;
-		width: 140pt;
-		margin: 0px 30px;
+		width: 250px;
+		max-width: 700px;
+		margin: 0;
+		padding: 0;
 	}
 
 	/* Footer */
